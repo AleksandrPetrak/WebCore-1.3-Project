@@ -1,0 +1,234 @@
+@media (min-width: 320px) {
+    .header-nav__title, 
+    .slide-menu--desktop,
+    .header-nav__label1,
+    .header-nav__label2,
+    .header-nav__item3,
+    .header-nav__item4,
+    .header-nav__item5 {
+        display: none;
+    }
+}
+
+@media (min-width: 377px) {
+    .about__img1 {
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 390px) {
+    .header-nav__item5 {
+        display: flex;
+        margin-left: auto;
+        margin-right: 42px;
+    }
+
+    .header-nav__item6 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 450px) {
+    .header-nav__item4 {
+        display: flex;
+        margin-left: auto;
+        margin-right: 16px;
+    }
+
+    .header-nav__item5 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 510px) {
+    .header-nav__item3 {
+        display: flex;
+        margin-left: auto;
+        margin-right: 16px;
+    }
+
+    .header-nav__item4 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-nav__item1 {
+        margin-left: 24px;
+    }
+    .header-nav__list::before {
+        content: "";
+        background-image: url("./img/divider.svg");
+        width: 2px;
+        height: 32px;
+        position: absolute;
+        left: 84px;
+    }
+
+    .header-nav__item2 {
+        margin-left: 42.73px;
+    }
+
+    .header-nav__item7 {
+        margin-right: 24px;
+    }
+
+    .header-nav__list::after {
+        right: 140px;
+    }
+
+    .title__header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    .slide-menu__list {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 32px;
+    }
+
+    .about {
+        line-height: 20px;
+    }
+
+    .about__item1 {
+        flex-direction: row;
+        gap: 48px;
+    }
+
+    .about__text1 {
+        margin-left: 24px;
+        margin-right: 0;
+        max-width: 312px;
+        max-height: 160px;
+        margin-bottom: 10px;
+    }
+
+    .read-next-checkbox__label {
+        margin-left: 57px;
+    }
+
+    .read-next-checkbox__label::before {
+        left: 25px;
+    }
+
+    .about__img1 {
+        margin-left: 0;
+        border-radius: 6px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .page-header {
+        margin-top: 42px;
+        height: 130px;
+        background-color: #F8F8F8;
+        border-bottom: none;
+        margin-bottom: 16px;
+    }
+
+    .header-nav__item1,
+    .header-nav__item2,
+    .header-nav__item3,
+    .header-nav__item4,
+    .header-nav__item5,
+    .header-nav__list::after,
+    .header-nav__list::before,
+    .title,
+    .slide-menu {
+        display: none;
+    }
+
+    .header-nav__title,
+    .header-nav__label1,
+    .header-nav__label2 {
+        display: flex;
+    }
+
+    .header-nav {
+        height: 40px;
+        margin-bottom: 8px;
+    }
+
+    .header-nav__list {
+        height: 40px;
+        align-items: center;
+    }
+
+    .header-nav__title::before {
+        content: "";
+        background-image: url("./img/highlight.svg");
+        width: 4px;
+        height: 40px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .title__header {
+        margin-left: 32px;
+        margin-right: 0;
+    }
+
+    .header-nav__label1 {
+        margin-left: auto;
+    }
+
+    .header-nav__item7 {
+        margin-right: 32px;
+    }
+
+    .header-nav__label2 {
+        margin-right: 8px;
+    }
+
+    .header-nav__item6 {
+        margin-right: 32px;
+    }
+
+    .header-nav__label1 {
+        margin-right: 8px;
+    }
+
+    .header-nav__label1,
+    .header-nav__label2 {
+        font-family: "TT Lakes Regular";
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .slide-menu--desktop {
+        display: block;
+    }
+
+    .slide-menu__list {
+        display: inline-block;
+        white-space: wrap;
+        overflow-x: hidden;
+        margin-left: 32px;
+    }
+
+    .slide-menu__list li {
+        display: inline-block;
+    }
+
+    .about__text1 {
+        margin-left: 32px;
+        max-width: 490px;
+        max-height: 160px;
+        margin-bottom: 13.78px;
+    }
+
+    .about__item1 {
+        gap: 36px;
+    }
+
+    .about__img1 {
+        max-width: 531.35px;
+        max-height: 307px;
+    }
+}
